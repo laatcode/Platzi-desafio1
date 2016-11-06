@@ -1,0 +1,125 @@
+body{
+  background: #eeeeee;
+}
+
+.header{
+  background: #273b47;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu li{
+  display: inline-block;
+  border-left: 2px solid white;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.menu button{
+  font-size: 20px;
+  padding: 5px;
+  background-color: #ff4842;
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+
+.buscar{
+  position: relative;
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.buscar input{
+  text-decoration: none;
+  border: none;
+  height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.buscar button{
+  font-size: 15px;
+  color: white;
+  background-color: #333333;
+  border: none;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.contenedor{
+  max-width: 1000px;
+  margin: auto;
+}
+
+.portada{
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.portada article{
+  color: #838382;
+  width: 40%;
+  padding: 20px;
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  background: rgba(255,255,255,0.8);
+}
+
+.contenido{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.articulo{
+  width: 300px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.articulo h2{
+  color: #515151;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.articulo p{
+  color: #515151;
+  margin: 0;
+}
+
+.pie{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  color: #666666;
+  font-size: 25px;
+}
+
+.footer button{
+  color: #666666;
+  margin: 5px;
+  background-color: #eaeaea;
+  border: 1px solid #cccccc;
+  font-size: 25px;
+  padding: 10px 10px 5px 10px;
+}
+
+.footer label{
+  margin: 5px;
+  padding: 10px;
+}
