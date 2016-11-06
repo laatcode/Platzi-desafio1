@@ -8,6 +8,10 @@ body{
   justify-content: space-between;
 }
 
+.menu{
+  margin-right: 20px;
+}
+
 .menu li{
   display: inline-block;
   border-left: 2px solid white;
